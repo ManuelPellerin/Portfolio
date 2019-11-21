@@ -1,0 +1,87 @@
+Instructions a suivre robot
+
+
+
+
+-DEPART:
+
+
+        Robot1 (le robot suivant le trajet):
+            -Centre de rotation du robot est place sur un des 4 points de depart.
+            -Une fois mis sous tension, le robot  attend les instructions du robot 2
+            ( le point de depart) 
+            -allume la DEL correspondant a l'instruction recue ( pt de depart1 DEL 1 s'allume etc)
+                -la DEl reste allumee pendant 3 secondes, puis le robot se met en marche
+                -robot ne reagit pas si la valeur comprise n'est pas entre 1 et 4 inclusivement
+            
+            
+            -Si la transmission ne fonctionne pas, le robot doit utiliser des instructions en memoire
+                (selectionnees a l'aide du bouton interrupt)
+            
+               
+
+
+
+        Robot2 (rebeau qui envoie les instructions):
+            -Le robot envoie les instructions au Robot1
+                -On utilise le bouton interrupt pour selectionner l'instruction ( peser x nb de fois --> instruction x)
+            
+
+
+-SECTION 1( pt de depart: C1 ):
+
+        -ROBOT1:
+
+                -Avance jusqu'au S2, s'arrete et attend Un code du Robot2 (entre 1 et 9 inclusivement)
+                    -si la transmission ne fonctionne pas, on entre la code avec le bouton interrupt du robot 1)
+                
+                -Le robot va placer son centre de rotation au dessus du point correspondant au code ( P1 a p9)
+                    - Le robot doit etre parallele a s3, dans la direction de s4
+                
+                -Le robot attend 3 secondes ( en emettant un son grave ), puis effectue une rotation de 90degs vers la droite (sens horaire)
+                -Le robot attend encore 3 secondes ( en emettant un son grave), puis il se dirige vers s3
+                
+
+        -ROBOT2:
+                -Le robot envoie le code ( entre 1 et 9 inclusivement )  au Robot1
+                    -On utilise le bouton interrupt pour selectionner le code ( peser x nb de fois --> code x)
+            
+
+
+-SECTION 2( pt de depart: C2 ):
+
+        -ROBOT1:
+                -suivre le parcour
+                -lorsqu'il entre dans une courbe, il doit ralentir ( doit etre visible )
+                -lorsqu'il sort de la courbe il reprend sa vitesse normale
+
+        -ROBOT2:
+
+-SECTION 3 (pt de depart: C3 ):
+
+        -ROBOT1:
+                -le robot avance jusqu'au S5, puis il s'arrete
+                -le charge droit le robot sur une des droites ( D1 a D4 inclusivement). L'avant du robot est centre sur la droite
+                -( le rebot repart somehow ... [a determiner]) et parcoure la droite
+                -Le robot  identifie la droite qu'il vient de parcourir ( D1 a D4 inclusivement) et allume la DEL correspondante
+                
+                -le robot est ensuite place sur le segment S6, avec son centre de rotation au dessus du point PA
+                
+
+        -ROBOT2:
+                -envoie potentiellement instruction de mise en marche au robot1 ( a determiner )
+
+-SECTION 4 (pt de depart: C4 ):
+
+        -ROBOT1:
+                -le robot suit la trajet.
+                -Lorsqu'il entre dans un rectangle, il traverse ce dernier.
+                -a chaque fois que le robot entre ou sort d'un rectangle, il emet 2 sons aigus consecutifs
+                    d'une duree de 50ms avec en silence de 20ms entre eux
+
+        -ROBOT2:
+               
+
+
+
+

@@ -1,0 +1,182 @@
+dbt;
+
+sgo 60;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 4;
+sgo 62;
+att 4;
+sgo 69;
+att 10;
+sar;
+att 2;
+sgo 69;
+att 10;
+sar;
+att 2;
+sgo 67;
+att 24;
+
+sar;
+att 2;
+
+sgo 60;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 4;
+sgo 62;
+att 4;
+sgo 67;
+att 10;
+sar;
+att 2;
+sgo 67;
+att 10;
+sar;
+att 2;
+sgo 65;
+att 12;
+sgo 64;
+att 4;
+sgo 62;
+att 8;
+
+sar;
+att 2;
+
+sgo 60;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 16;
+sgo 67;
+att 8;
+sgo 64;
+att 12;
+sgo 62;
+att 4;
+sgo 60;
+att 16;
+sar;
+att 2;
+sgo 60;
+att 8;
+sgo 67;
+att 16;
+sgo 65;
+att 32;
+
+sar;
+att 2;
+
+sgo 60;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 4;
+sgo 62;
+att 4;
+sgo 69;
+att 10;
+sar;
+att 2;
+sgo 69;
+att 10;
+sar;
+att 2;
+sgo 67;
+att 24;
+
+sar;
+att 2;
+
+sgo 60;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 4;
+sgo 62;
+att 4;
+sgo 72;
+att 16;
+sgo 64;
+att 8;
+sgo 65;
+att 12;
+sgo 64;
+att 4;
+sgo 62;
+att 8;
+
+sar;
+att 2;
+
+sgo 60;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 4;
+sgo 62;
+att 4;
+sgo 65;
+att 16;
+sgo 67;
+att 8;
+sgo 64;
+att 12;
+sgo 62;
+att 4;
+sgo 60;
+att 16;
+sar;
+att 2;
+sgo 60;
+att 8;
+sgo 67;
+att 16;
+sgo 65;
+att 32;
+
+sar;
+
+
+
+
+
+
+
+
+
+
+
+dbc 8;
+dal 4;
+att 2;
+det 4;
+att 2;
+fbc;
+trd;
+trd;
+mav 67;
+att 50;
+mar;
+att 20;
+trg;
+trd;
+trg;
+trg;
+mre 99;
+att 40;
+fin;
